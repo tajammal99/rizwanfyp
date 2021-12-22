@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Evaluator.FinalDefence"
+    android:orientation="vertical"
+    >
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Final Defence Evaluation"
+                        android:textSize="28dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:background="@color/colorSilver"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:id="@+id/pro_project_id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Project Id"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/project_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Project Id"
+                            android:layout_margin="10dp"
+                            android:inputType="number"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="Program"
+                            android:textSize="25dp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/mid_program"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:hint="i.e BSCS or BSSE "
+                            android:inputType="number"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Leader Name"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/pro_leader_name"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Name"
+                            android:layout_margin="10dp"
+                            android:inputType="textMultiLine"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Registration#"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/pro_lreg_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Leader Roll No."
+                            android:layout_margin="10dp"
+                            android:inputType="text"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Member Name"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/pro_member_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name"
+                            android:layout_margin="10dp"
+                            android:inputType="text"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Registration#"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/pro_reg_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="member Roll No."
+                            android:layout_margin="10dp"
+                            android:inputType="text"
+                            android:paddingLeft="14dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="3dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title"
+                            android:textSize="25dp"
+                            android:layout_margin="10dp"
+                            android:textStyle="bold"
+                            />
+                        <EditText
+                            android:id="@+id/pro_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="title"
+                            android:layout_margin="10dp"
+                            android:inputType="text"
+                            android:paddingLeft="14dp"
+                            />
+                    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="3dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Supervisor"
+                    android:textSize="25dp"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:id="@+id/final_supervisor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Supervisor"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:paddingLeft="14dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Panel Members Name"
+                    android:textSize="25dp"
+
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorwhite"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <EditText
+                    android:id="@+id/final_panel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Member Name"
+                    android:layout_margin="10dp"
+                    android:inputType="text"
+                    android:paddingLeft="14dp"
+                    />
+                    <EditText
+                        android:id="@+id/final_panel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Member Name"
+                        android:layout_margin="10dp"
+                        android:inputType="text"
+                        android:paddingLeft="14dp"
+                        />
+                    <EditText
+                        android:id="@+id/final_panel3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Member Name"
+                        android:layout_margin="10dp"
+                        android:inputType="text"
+                        android:paddingLeft="14dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Part-1 (Viva)"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Project Marks Detail"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorwhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorSilver"
+                        android:gravity="center"
+                        android:text="Presentation\Communication            15"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/pre_lmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Leader Marks" />
+
+                        <Spinner
+                            android:id="@+id/pre_mmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:entries="@array/MidMemberMarks"
+                            android:hint="Member Marks" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorSilver"
+                        android:gravity="center"
+                        android:text="Viva                                                   15"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/viva_lmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Leader Marks" />
+
+                        <Spinner
+                            android:id="@+id/viva_mmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:entries="@array/MidMemberMarks"
+                            android:hint="Member Marks" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorSilver"
+                        android:gravity="center"
+                        android:text="Program Implementation and Coding               20"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/prog_lmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Leader Marks" />
+
+                        <Spinner
+                            android:id="@+id/prog_mmarks"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:entries="@array/MidMemberMarks"
+                            android:hint="Member Marks" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

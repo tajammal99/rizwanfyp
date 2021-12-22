@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Admin.AddNewEvaluator"
+android:orientation="vertical"
+    >
+
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evaluation Panel Registration"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorwhite"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/admin_panel_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel ID"
+            android:inputType="number"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/panel_member_one_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel Member 1 Name"
+            android:layout_marginTop="24dp"
+            android:inputType="text"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/panel_member_one_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel Member 1 Email"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:id="@+id/panel_member_two_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel Member 2 Name"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/panel_member_two_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel Member 2 Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/panel_member_three_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="panel Member 3 Name"
+            android:inputType="text"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/panel_member_three_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Panel Member 3 Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/panel_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <EditText
+            android:id="@+id/panel_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <Button
+            android:id="@+id/addNewPanelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="22dp"
+            android:text="Add New"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

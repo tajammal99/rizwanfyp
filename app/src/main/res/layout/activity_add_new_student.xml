@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AddNewGroup"
+    android:orientation="vertical"
+    >
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <EditText
+               android:id="@+id/group_leader_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Group Leader Name"
+               android:layout_marginTop="24dp"
+               android:inputType="text"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+
+           <EditText
+               android:id="@+id/group_leader_roll"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Group Leader Reg.No"
+               android:layout_marginTop="24dp"
+               android:inputType="text"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+
+           <EditText
+               android:id="@+id/group_leader_Email"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Group Leader Email"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+
+               android:layout_marginLeft="10dp"
+               android:inputType="textEmailAddress"
+               />
+           <EditText
+               android:id="@+id/member_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Member Name"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:inputType="text"
+               android:layout_marginLeft="10dp"
+               />
+           <EditText
+               android:id="@+id/member_Reg_No"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Member Reg.No"
+               android:inputType="textEmailAddress"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+           <EditText
+               android:id="@+id/member_email_id"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Member Email ID"
+               android:inputType="textEmailAddress"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+           <EditText
+               android:id="@+id/leader_mobile_number"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Group Leader Mobile Number"
+               android:inputType="number"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+
+           <Spinner
+               android:id="@+id/select_program"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:entries="@array/Programs" />
+           <EditText
+               android:id="@+id/group_password"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Password"
+               android:inputType="textPassword"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+           <EditText
+               android:id="@+id/group_confirm_password"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Confirm Password"
+               android:inputType="textPassword"
+               android:layout_marginTop="24dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               />
+           <Button
+               android:id="@+id/addnewgroupbtn"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="22dp"
+               android:layout_marginBottom="22dp"
+               android:text="Add New"/>
+
+       </LinearLayout>
+
+   </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

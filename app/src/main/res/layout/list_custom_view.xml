@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_margin="10dp"
+       >
+       <TextView
+           android:id="@+id/list_group_id"
+           android:layout_margin="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Group Id"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           />
+       <TextView
+           android:id="@+id/list_group_leader_Reg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Group Leader Reg"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:textSize="16dp"
+           />
+       <TextView
+           android:id="@+id/list_group_member_Reg"
+           android:text="Group Member Reg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:textSize="16dp"
+           />
+       <TextView
+           android:id="@+id/group_list_GL_phone"
+           android:text="Group Leader Phone Number"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:textSize="16dp"
+           />
+
+
+   </LinearLayout>
+
+</RelativeLayout>

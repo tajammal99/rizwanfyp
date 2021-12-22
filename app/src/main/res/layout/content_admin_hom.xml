@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Admin.AdminHom"
+    tools:showIn="@layout/app_bar_admin_hom"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorwhite"
+        />
+    <Button
+        android:id="@+id/add_new_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Group"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Group List"
+        />
+    <Button
+        android:id="@+id/add_new_supervisor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Supervisor"
+        android:onClick="gotoAddnewSp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/add_new_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Panel"
+        android:onClick="gotoNewPanelAdd"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/admin_panel_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panel List"
+        android:onClick="gotoPanelList"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/admin_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proposal Marks List"
+        android:onClick="gotoPropasalMarksList"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/admin_mid_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SRS Marks List"
+        android:onClick="gotoPropasalMarksList"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/admin_final_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Marks List"
+        android:onClick="gotoPropasalMarksList"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/admin_project_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoTotalMarksList"
+        android:text="Final Project Marks List"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
